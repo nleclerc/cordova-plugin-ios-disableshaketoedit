@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+			id="fr.spirotron.cordova.ios.disableshaketoedit"
+			version="0.1.0">
+
+	<name>iOS Disable Shake to Edit</name>
+	<description>Disables iOS shake to undo feature in all input fields.</description>
+	<license>Apache 2.0</license>
+	<keywords>cordova,ios,input,gesture,shaketoedit</keywords>
+	<repo>https://github.com/nleclerc/cordova-plugin-ios-disableshaketoedit.git</repo>
+
+	<!-- ios -->
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="DisableShakeToEdit">
+				<param name="ios-package" value="DisableShakeToEdit"/>
+				<param name="onload" value="true"/>
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/DisableShakeToEdit.h" />
+		<source-file src="src/ios/DisableShakeToEdit.m" />
+	</platform>
+</plugin>

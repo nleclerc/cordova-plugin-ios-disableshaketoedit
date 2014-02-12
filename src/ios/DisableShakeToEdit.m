@@ -22,9 +22,10 @@
 
 @implementation DisableShakeToEdit
 
-- (void)webViewDidFinishLoad:(UIWebView*)theWebView
+- (void)pluginInitialize
 {
 	[UIApplication sharedApplication].applicationSupportsShakeToEdit = NO;
+	NSLog(@"DisableShakeToEdit plugin initialized.");
 }
 
 @end

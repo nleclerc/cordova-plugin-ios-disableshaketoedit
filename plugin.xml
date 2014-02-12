@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 			id="fr.spirotron.cordova.ios.disableshaketoedit"
-			version="0.1.0">
+			version="0.2.0">
 
 	<name>iOS Disable Shake to Edit</name>
 	<description>Disables iOS shake to undo feature in all input fields.</description>

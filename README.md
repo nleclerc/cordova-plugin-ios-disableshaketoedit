@@ -3,8 +3,12 @@
 ## Description
 This plugin disables the infamous "Shake to undo" feature by setting the application's `applicationSupportsShakeToEdit` property to `NO`.
 
-## Version History
+## Installation
+Use the following command in your cordova project folder.
 
+    $ cordova plugin add cordova-plugin-ios-disableshaketoedit
+
+## Version History
 ### 1.0.0
 * Changed license to MIT.
 * Changed plugin id to conform to new standard.

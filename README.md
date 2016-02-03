@@ -5,6 +5,11 @@ This plugin disables the infamous "Shake to undo" feature by setting the applica
 
 ## Version History
 
+### 1.0.0
+* Changed license to MIT.
+* Changed plugin id to conform to new standard.
+* Added package.json to allow npm publishing.
+
 ### 0.2.0
 * Fixed plugin not working anymore with cordova 3.2+.
 
